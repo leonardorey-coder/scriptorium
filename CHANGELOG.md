@@ -82,5 +82,5 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ---
 
-[Unreleased]: https://github.com/tu-usuario/MisDocumentosAI/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/tu-usuario/MisDocumentosAI/releases/tag/v1.0.0
+[Unreleased]: https://github.com/leonardorey-coder/scriptorium/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/leonardorey-coder/scriptorium/releases/tag/v1.0.0

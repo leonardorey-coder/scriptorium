@@ -3,7 +3,7 @@ import AppKit
 import UniformTypeIdentifiers
 
 @main
-struct MisDocumentosAIApp: App {
+struct ScriptoriumApp: App {
     @StateObject private var appState = AppState()
     
     init() {

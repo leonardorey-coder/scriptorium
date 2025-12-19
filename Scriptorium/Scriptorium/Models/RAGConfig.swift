@@ -24,7 +24,7 @@ struct RAGConfig: Codable {
     
     private static let configURL: URL = {
         let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-        let appDir = appSupport.appendingPathComponent("MisDocumentosAI", isDirectory: true)
+        let appDir = appSupport.appendingPathComponent("Scriptorium", isDirectory: true)
         try? FileManager.default.createDirectory(at: appDir, withIntermediateDirectories: true)
         return appDir.appendingPathComponent("config.json")
     }()

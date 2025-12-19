@@ -2,7 +2,7 @@
 
 ## Reportar una Vulnerabilidad
 
-Si descubres una vulnerabilidad de seguridad en MisDocumentosAI, por favor repórtala de manera responsable.
+Si descubres una vulnerabilidad de seguridad en Scriptorium, por favor repórtala de manera responsable.
 
 ### Cómo Reportar
 
@@ -55,7 +55,7 @@ Si descubres una vulnerabilidad de seguridad en MisDocumentosAI, por favor repó
 3. **Revisa permisos de archivos**
    ```bash
    # Los archivos de configuración deben ser privados
-   chmod 600 ~/.config/misdocumentosai/config.json
+   chmod 600 ~/.config/scriptorium/config.json
    ```
 
 ### Para Contribuyentes
@@ -107,4 +107,4 @@ safety check -r requirements.txt
 
 ---
 
-Gracias por ayudar a mantener MisDocumentosAI seguro.
+Gracias por ayudar a mantener Scriptorium seguro.

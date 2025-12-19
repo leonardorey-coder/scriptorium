@@ -5,11 +5,11 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
 </p>
 
-# 📝 MisDocumentosAI
+# 🏛️ Scriptorium
 
-> **Sistema de generación y transformación de documentos que aprende tu estilo de escritura personal usando RAG (Retrieval-Augmented Generation)**
+> **Tu sala de escribas personal impulsada por IA - Sistema RAG de generación y transformación de documentos**
 
-MisDocumentosAI es una herramienta de IA que analiza tus documentos existentes para aprender tu estilo único de escritura y genera nuevos documentos o transforma textos existentes manteniendo tu voz personal.
+Scriptorium es una herramienta de IA que analiza tus documentos existentes para aprender tu estilo único de escritura y genera nuevos documentos o transforma textos existentes manteniendo tu voz personal.
 
 ---
 
@@ -102,8 +102,8 @@ export GITHUB_TOKEN="tu_token_aqui"
 - Python 3.8+ (para el backend)
 
 # Clonar e instalar
-git clone https://github.com/tu-usuario/MisDocumentosAI.git
-cd MisDocumentosAI/MisDocumentosAI
+git clone https://github.com/leonardorey-coder/scriptorium.git
+cd scriptorium/Scriptorium
 swift build
 swift run
 ```
@@ -114,8 +114,8 @@ swift run
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/MisDocumentosAI.git
-cd MisDocumentosAI
+git clone https://github.com/leonardorey-coder/scriptorium.git
+cd scriptorium
 
 # 2. Instalar dependencias Python
 pip install -r requirements.txt
@@ -185,7 +185,7 @@ python agregar_documento.py documento.txt --nombre mi_practica --sobrescribir
 
 ```bash
 # Compilar y ejecutar
-cd MisDocumentosAI
+cd Scriptorium
 swift build
 swift run
 
@@ -226,7 +226,7 @@ open Package.swift
 ## 📁 Estructura del Proyecto
 
 ```
-MisDocumentosAI/
+Scriptorium/
 ├── 📄 generar_documento.py     # CLI: Generador de documentos
 ├── 📄 transformar_texto.py     # CLI: Transformador de texto
 ├── 📄 agregar_documento.py     # CLI: Agregador de documentos
@@ -236,10 +236,10 @@ MisDocumentosAI/
 │   ├── documentos_manager.py   # Gestión de documentos
 │   └── embeddings_manager.py   # Gestión de embeddings
 ├── 📁 documentos/               # Documentos de ejemplo (JSON)
-├── 📁 MisDocumentosAI/          # Aplicación GUI (Swift/macOS)
+├── 📁 Scriptorium/              # Aplicación GUI (Swift/macOS)
 │   ├── Package.swift           # Configuración del paquete
-│   └── MisDocumentosAI/
-│       ├── MisDocumentosAIApp.swift
+│   └── Scriptorium/
+│       ├── ScriptoriumApp.swift
 │       ├── ContentView.swift
 │       ├── Models/
 │       ├── Views/
@@ -320,8 +320,8 @@ python generar_documento.py "tema" --endpoint "https://openrouter.ai/api/v1"
 
 ```bash
 # Clonar tu fork
-git clone https://github.com/TU_USUARIO/MisDocumentosAI.git
-cd MisDocumentosAI
+git clone https://github.com/TU_USUARIO/scriptorium.git
+cd scriptorium
 ```
 
 2. **Crear una rama** para tu feature

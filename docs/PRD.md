@@ -1,4 +1,4 @@
-# MisDocumentosAI - Product Requirements Document (PRD)
+# Scriptorium - Product Requirements Document (PRD)
 
 ![Status](https://img.shields.io/badge/Status-En%20Desarrollo-blue)
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
@@ -8,7 +8,9 @@
 
 ## 1. Resumen Ejecutivo
 
-**MisDocumentosAI** es un sistema de generación y transformación de documentos personalizados que utiliza técnicas de RAG (Retrieval-Augmented Generation) para imitar el estilo de escritura del usuario. El sistema aprende del estilo de escritura a partir de documentos de ejemplo y puede generar nuevos documentos o transformar textos existentes para que coincidan con ese estilo personal.
+**Scriptorium** es un sistema de generación y transformación de documentos personalizados que utiliza técnicas de RAG (Retrieval-Augmented Generation) para imitar el estilo de escritura del usuario. El sistema aprende del estilo de escritura a partir de documentos de ejemplo y puede generar nuevos documentos o transformar textos existentes para que coincidan con ese estilo personal.
+
+> *Del latín "scriptorium": sala medieval donde los escribas copiaban manuscritos. Hoy, tu sala de escribas personal impulsada por IA.*
 
 ### Visión del Producto
 
@@ -92,7 +94,7 @@ Un sistema RAG que:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ MisDocumentosAI                                                 │
+│ Scriptorium                                                     │
 ├──────────┬──────────────────────────┬──────────────────────────┤
 │          │                          │                          │
 │  SIDEBAR │     LISTA/EDITOR        │    DETALLE/PREVIEW       │

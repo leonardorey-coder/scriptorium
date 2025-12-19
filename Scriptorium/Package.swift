@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "MisDocumentosAI",
+    name: "Scriptorium",
     platforms: [
         .macOS(.v14)
     ],
     products: [
-        .executable(name: "MisDocumentosAI", targets: ["MisDocumentosAI"])
+        .executable(name: "Scriptorium", targets: ["Scriptorium"])
     ],
     dependencies: [],
     targets: [
         .executableTarget(
-            name: "MisDocumentosAI",
+            name: "Scriptorium",
             dependencies: [],
-            path: "MisDocumentosAI"
+            path: "Scriptorium"
         )
     ]
 )

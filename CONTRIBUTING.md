@@ -1,6 +1,6 @@
-# Guía de Contribución - MisDocumentosAI
+# Guía de Contribución - Scriptorium
 
-¡Gracias por tu interés en contribuir a MisDocumentosAI! Este documento te guiará a través del proceso de contribución.
+¡Gracias por tu interés en contribuir a Scriptorium! Este documento te guiará a través del proceso de contribución.
 
 ---
 
@@ -45,11 +45,11 @@ Nos comprometemos a proporcionar un ambiente amigable, seguro y acogedor para to
 
 ```bash
 # Fork el repositorio desde GitHub, luego:
-git clone https://github.com/TU_USUARIO/MisDocumentosAI.git
-cd MisDocumentosAI
+git clone https://github.com/TU_USUARIO/scriptorium.git
+cd scriptorium
 
 # Agregar el repositorio original como upstream
-git remote add upstream https://github.com/ORIGINAL_USUARIO/MisDocumentosAI.git
+git remote add upstream https://github.com/ORIGINAL_USUARIO/scriptorium.git
 ```
 
 ### 2. Configurar el Entorno
