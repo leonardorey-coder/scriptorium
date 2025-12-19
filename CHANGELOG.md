@@ -16,7 +16,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ---
 
-## [1.0.0] - 2024-12-19
+## [1.0.0] - 2025-12-19
 
 ### ✨ Añadido
 

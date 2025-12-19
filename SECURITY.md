@@ -7,7 +7,7 @@ Si descubres una vulnerabilidad de seguridad en Scriptorium, por favor repórtal
 ### Cómo Reportar
 
 1. **NO** abras un issue público para vulnerabilidades de seguridad
-2. Envía un email a: [tu-email@ejemplo.com]
+2. Envía un email a: [leonardo.cfjl@gmail.com]
 3. Incluye:
    - Descripción detallada de la vulnerabilidad
    - Pasos para reproducirla
