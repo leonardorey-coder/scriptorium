@@ -60,7 +60,7 @@ struct SidebarView: View {
             }
             
             VStack(alignment: .leading, spacing: 2) {
-                Text("MisDocumentos")
+                Text("Scriptorium")
                     .font(.headline)
                     .fontWeight(.semibold)
                 
