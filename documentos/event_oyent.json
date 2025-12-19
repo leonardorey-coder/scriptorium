@@ -1,0 +1,26 @@
+{
+  "titulo": "Eventos y oyentes en Java",
+  "tipo": "practica e investigacion",
+  "materia": "programacion visual",
+  "presenta": "CRUZ FLORES JUAN LEONARDO",
+  "profesor": "CUEVAS HERNÁNDEZ ALDO ISMAEL",
+  "introduccion": "Se va a desarrollar una aplicación con Java Swing que contenga un JPanel con FlowLayout, que contendrá dos botones, se implementará un oyente y será agregado a cada botón para programar su funcionalidad correspondiente.",
+  "desarrollo": "Se crea una clase llamada EventoBoton y se inicializa un objeto JFrame con sus métodos principales ya definidos en la clase principal. Posteriormente, se crea un JPanel con FlowLayout para contener alineados y bien ordenados los elementos que se agregarán posteriormente. Se agregaron dos botones dentro del FlowLayout para que después, se les implemente un oyente para interactuar con los eventos. Teniendo esto hecho, se crea la clase OyenteEventoBoton que servirá como oyente para cada botón previamente agregados al JPanel. Esta clase implementa la interfaz ActionListener. Esta interfaz nos permite definir o sobrescribir métodos y atributos abstractos en una clase que implemente de ésta. En este caso, esta interfaz nos permite sobrescribir métodos para escuchar eventos clic. Se inicializa la clase OyenteEventoBoton en el método principal para ser agregado en cada botón del JPanel. Esto se llevará a cabo declarando un método llamado ‘addEventos()’ en la clase JPanel. Este método tendrá de parámetro al oyente (addEventos(OyenteEventoBoton oyente)) para que, dentro del método, se le agregue a cada botón el oyente mediante un parámetro del método del botón llamado ‘addActionListener()’. Hasta el momento, al hacer clic en cada botón, estos no hacen nada, porque el oyente escucha el método, pero no tiene programadas las funciones que queremos que haga. Para esto, se programan las funciones dentro del método ‘actionPerformed(ActionEvent e)’ que la clase OyenteEventoBoton sobrescribirá al implementar la interfaz ActionListener. El código es el siguiente: String comando = e.getActionCommand(); if (comando.equals(“Cambiar fondo a Azul”)) { panel.setBackground(Color.blue); } else if (comando.equals(“Cambiar fondo a Verde”)) { panel.setBackground(Color.GREEN); } Finalmente, con esto implementado, el JPanel cambia al color indicado permitiendo un uso correcto del oyente y los eventos en cada botón.",
+  "conclusion": "Se entendió correctamente lo que es una interfaz, un oyente, los eventos y los métodos que un evento implementa. No solo se entendió el concepto, sino que se llevó a la práctica y se hicieron uso de éstos. Así como se interactuó con el JPanel escuchando los eventos, así se pueden interactuar con otros elementos dentro del JPanel, para manipular los atributos de los objetos que nosotros indiquemos con solamente interactuar en el GUI. Se implementó un oyente con la interfaz ActionListener, pero no es la única que el oyente puede implementar. También puede hacer uso de otras interfaces que implementen otros métodos de oyentes diferentes. Esta práctica fue bastante clara para aprender los conceptos y aprender el comportamiento de los eventos en Java.",
+  "referencias": [
+    "Java Swing Documentation",
+    "Programación Visual - Apuntes de clase"
+  ],
+  "palabras_clave": [
+    "Java",
+    "Swing",
+    "Eventos",
+    "Oyentes",
+    "JPanel",
+    "ActionListener"
+  ],
+  "fecha_creacion": "2024",
+  "formato": "tutorial",
+  "nivel_tecnico": "intermedio",
+  "enfoque": "practico"
+}

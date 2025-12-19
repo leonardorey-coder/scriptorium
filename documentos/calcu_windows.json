@@ -1,0 +1,26 @@
+{
+  "titulo": "Calculadora de Windows visual en Java Swing",
+  "tipo": "practica",
+  "materia": "programacion visual",
+  "presenta": "CRUZ FLORES JUAN LEONARDO",
+  "profesor": "CUEVAS HERNÁNDEZ ALDO ISMAEL",
+  "introduccion": "En esta práctica se desarrolla una calculadora visual en Java Swing, implementando botones y un TextField para la interacción del usuario. Se colocó el TextField en la parte superior del formulario para ser utilizado como pantalla, que contendrá y mostrará los números seleccionados para realizar operaciones posteriores. Se agregaron 10 botones numéricos, 4 botones para operaciones aritméticas, un botón para convertir en positivo o negativo, otro para el punto decimal, un botón ‘C’ que eliminará el último dígito, ‘CE’ que borra todo el contenido, ‘1/x’ para el inverso de un número y el botón ‘=’ para realizar la operación digitada en pantalla. Se implementaron tres atributos en la clase: ‘memoria1’ (primer número), ‘signo’ (operación aritmética) y ‘memoria2’ (segundo número).",
+  "desarrollo": "El primer paso fue crear un JFrameForm y, mediante un TextField con 20 botones, diseñar la interfaz de la calculadora. Se programaron los botones numéricos para que, al ser presionados, concatenen su valor en el TextField. El método ‘setText’ se usó para actualizar el contenido del TextField y ‘getText’ para obtener el texto ingresado. Se implementó lógica para evitar múltiples puntos decimales usando la función ‘existePunto’, que valida si el TextField ya contiene un punto. Para la funcionalidad del botón ‘C’, se eliminó el último carácter de la pantalla usando ‘substring’, y para ‘CE’, se asignó una cadena vacía. El botón ‘1/x’ calcula el inverso del número ingresado. El botón ‘+/-’ multiplica el número en pantalla por -1. Para las operaciones matemáticas, se almacenó el signo en la variable ‘signo’ y se borró la pantalla para recibir el segundo número. El botón de igual (‘=’) ejecuta la función ‘calculadora’, la cual evalúa la operación almacenada en ‘signo’ y realiza el cálculo. En la segunda parte del desarrollo, se agregaron funciones avanzadas con los botones de memoria: ‘MS’ almacena un valor en memoria, ‘MC’ borra la memoria, ‘MR’ muestra el valor almacenado, ‘M+’ suma el valor de la pantalla a la memoria y ‘M-’ lo resta. También se implementó la raíz cuadrada (‘Sqrt’) y el cálculo de porcentaje (‘%’), que permite calcular el porcentaje de un número antes de realizar una operación aritmética.",
+  "conclusion": "El desarrollo fue bastante sencillo, debido a que varias funciones ya vienen integradas con las bibliotecas de Java y únicamente fue necesario el llamado de cada función. Se desarrollaron un par de funciones para el procedimiento y funcionamiento adecuado de toda la calculadora, como ‘existePunto’ y ‘calculadora’. No están incluidas en Java, se desarrollaron individualmente para un funcionamiento modular y para reciclar código. Se entendió correctamente el concepto y uso de los eventos y sus funciones correspondientes. En este caso, se implementaron eventos ‘clic’ a cada botón para ejercer un funcionamiento cada vez que se haga clic en dicho botón seleccionado. Se implementaron validaciones tales como: no dividir entre 0, verificar si la cadena en pantalla no está vacía y comprobar si se ha seleccionado un signo aritmético. Todas estas validaciones fueron necesarias para evitar errores al momento de realizar operaciones algebraicas, asegurando un correcto funcionamiento de la calculadora.",
+  "referencias": [
+    "Java Swing Documentation",
+    "Programación Visual - Apuntes de clase"
+  ],
+  "palabras_clave": [
+    "Java",
+    "Swing",
+    "Calculadora",
+    "Eventos",
+    "TextField",
+    "JButton"
+  ],
+  "fecha_creacion": "2024",
+  "formato": "tutorial",
+  "nivel_tecnico": "intermedio",
+  "enfoque": "practico"
+}

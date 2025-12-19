@@ -1,0 +1,55 @@
+**Título:** Origen y evolución del concepto de calidad en el desarrollo del software  
+
+**Tipo:** investigación  
+
+**Materia:** desarrollo de software  
+
+**Presenta:** CRUZ FLORES JUAN LEONARDO  
+
+**Profesor:** CUEVAS HERNÁNDEZ ALDO ISMAEL  
+
+---
+
+**Introducción:**  
+En este documento se analiza el origen y la evolución del concepto de calidad en el desarrollo de software, desde sus raíces en la manufactura y el control estadístico hasta las metodologías modernas como DevOps y la inteligencia artificial aplicada a la calidad. Exploraremos los aportes de pioneros como W. E. Deming y J. M. Juran, la transición hacia la ingeniería de software tras la llamada "crisis del software" y el impacto de estándares internacionales como ISO/IEC y IEEE. También se revisarán los hitos cronológicos más relevantes que han marcado la historia de la calidad del software.  
+
+---
+
+**Desarrollo:**  
+
+**Orígenes de la calidad aplicada al software:**  
+El interés por la calidad tiene sus raíces en la manufactura, con aportaciones de W. E. Deming y J. M. Juran, quienes desarrollaron conceptos como el ciclo PDCA (Plan-Do-Check-Act) y la trilogía de la calidad. Juran definió la calidad como “aptitud para el uso”, un enfoque que luego se adaptó al desarrollo de software. Durante las décadas de 1950 y 1960, el software se creaba de forma artesanal y la calidad recaía enteramente en el programador. Sin embargo, el aumento en la complejidad y la aparición de sistemas críticos evidenciaron problemas como retrasos, altos costos y productos poco confiables, lo que desencadenó la llamada "crisis del software" en 1968.  
+
+Como respuesta, surgió la ingeniería de software, marcando el inicio de prácticas más formales de aseguramiento de calidad (SQA). Organismos como la NASA y el Departamento de Defensa de los EE. UU. comenzaron a exigir estándares de calidad en sus proyectos, integrando revisiones, pruebas y métricas desde etapas tempranas del desarrollo.  
+
+**Aportes teóricos y modelos de calidad:**  
+Durante las décadas de 1970 y 1980, se desarrollaron modelos teóricos para medir y mejorar la calidad del software. El modelo de McCall (1977) introdujo la clasificación de atributos en tres dimensiones: operación del producto, capacidad de cambio y adaptación. Posteriormente, Barry Boehm (1978) propuso un modelo jerárquico que añadió factores como usabilidad, testabilidad y portabilidad.  
+
+Paralelamente, los principios de Deming y Juran, como la mejora continua y la calidad basada en el uso, influyeron en los enfoques de calidad en software. Estas ideas sentaron las bases para normativas y estándares que formalizaron el aseguramiento de calidad en la industria.  
+
+**Normas y estándares internacionales:**  
+En los años 90, surgieron estándares internacionales como la ISO/IEC 9126, que definió características clave para evaluar la calidad del software, incluyendo funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad y portabilidad. Posteriormente, la ISO/IEC 25010 (2011) amplió este modelo, añadiendo dimensiones como la compatibilidad y la seguridad.  
+
+El IEEE también desarrolló estándares técnicos como el IEEE 730 (aseguramiento de calidad) y el IEEE 829 (documentación de pruebas). Por su parte, modelos como el CMM y el CMMI, promovidos por el Software Engineering Institute, ayudaron a medir la madurez de los procesos de desarrollo y gestión de calidad en las organizaciones.  
+
+**Hitos cronológicos en la evolución de la calidad del software:**  
+
+1. **Años 1950-1960:**  
+   En sus inicios, la programación era manual y no existían estándares de calidad. Los errores eran comunes y la calidad dependía de la habilidad del programador. En 1968, la "crisis del software" puso en evidencia la necesidad de prácticas más rigurosas.  
+
+2. **Década de 1970:**  
+   Con el surgimiento de la ingeniería de software, se implementaron métodos estructurados y se reconoció que la calidad debía integrarse desde las etapas iniciales del desarrollo. Barry Boehm propuso un modelo basado en características como fiabilidad y eficiencia, mientras que Tom DeMarco introdujo la ingeniería de requerimientos.  
+
+3. **Años 1980:**  
+   Se adoptaron estándares como la ISO 9001, que, aunque inicialmente no era específica para software, fue adoptada por empresas tecnológicas. El modelo CMM clasificaba la madurez de los procesos en cinco niveles, desde caóticos hasta optimizados. Surgieron también métricas de software como la complejidad ciclomática y la cobertura de pruebas.  
+
+4. **Años 1990:**  
+   El enfoque en la calidad se amplió hacia la satisfacción del cliente y la mejora continua. Modelos como SPICE/ISO 15504 y metodologías como Six Sigma ayudaron a controlar y optimizar procesos. La verificación y validación continua se convirtieron en estándares.  
+
+5. **Años 2000 en adelante:**  
+   Con el Manifiesto Ágil (2001), se priorizó la entrega continua y la colaboración con el cliente. Metodologías como Scrum y Kanban promovieron pruebas integradas y retrospectivas. Más recientemente, DevOps y la automatización han transformado la calidad del software, permitiendo pruebas continuas, monitoreo en tiempo real y el uso de inteligencia artificial para predecir errores.  
+
+---
+
+**Conclusión:**  
+La evolución del concepto de calidad en el desarrollo de software ha sido un proceso progresivo y adaptativo. Desde sus inicios en la manufactura hasta las metodologías modernas como DevOps, la calidad se ha convertido en un eje fundamental del desarrollo. Se ha aprendido que la calidad no se logra solo con pruebas al final del ciclo, sino que debe integrarse desde el diseño, los procesos y la gestión. Hoy en día, gracias a los avances en automatización e inteligencia artificial, la calidad del software no solo busca reducir errores, sino también mejorar la experiencia del usuario final y adaptarse a un entorno tecnológico en constante cambio.  

@@ -1,0 +1,421 @@
+Elabora un reporte siguiendo esta planifiaccion. dice que son 40 paginas, pero solo haz 10 como minimo-14 como maximo. no cuentes la portada e indice como paginas.
+
+# **PLANIFICACIÓN PARA ELABORAR EL REPORTE DE PRUEBAS DE SOFTWARE**
+
+## **REQUISITOS ESTABLECIDOS POR EL PROFESOR**
+
+**Características del documento:**
+- ✅ Mínimo **40 hojas de contenido**
+- ✅ **Documento personal** (No utilizar IA para el contenido)
+- ✅ Describe TODO lo que has aprendido en el curso
+- ✅ Sé explícito con tu descripción
+- ✅ Estructura obligatoria: Portada, Índice, Introducción, Contenido, Conclusión, Palabras técnicas
+- ✅ Fecha de entrega: **Mañana (miércoles), 15:00**
+
+***
+
+## **ESTRUCTURA DEL DOCUMENTO**
+
+### **1. PORTADA** (1 página)
+Elementos a incluir:
+- Nombre de la universidad: Universidad Politécnica de Quintana Roo
+- Título: "Reporte de Pruebas de Software"
+- Tu nombre completo
+- Carrera: Ingeniería en Software
+- Nombre del profesor: Juan Carlos Mejía Guzmán
+- Asignatura: Pruebas de Software 27CV
+- Período: Septiembre - Noviembre 2025
+- Fecha de entrega
+- Logo de la universidad (si es posible)
+
+***
+
+### **2. ÍNDICE** (1-2 páginas)
+- Listado de todos los temas y subtemas
+- Números de página
+- Orden lógico de contenidos
+
+**Sugerencia de estructura:**
+1. Introducción
+2. Capítulo 1: Conceptos Fundamentales de Pruebas de Software
+3. Capítulo 2: Importancia y Objetivos de las Pruebas
+4. Capítulo 3: Tipos de Pruebas
+5. Capítulo 4: Casos de Prueba y Diseño
+6. Capítulo 5: Reportes de Defectos
+7. Capítulo 6: Buenas Prácticas
+8. Capítulo 7: Estándares y Formatos
+9. Capítulo 8: Experiencias Prácticas del Curso
+10. Conclusiones
+11. Glosario Técnico
+12. Referencias
+
+***
+
+### **3. INTRODUCCIÓN** (2-3 páginas)
+
+**Qué incluir:**
+- Presentación del tema: Pruebas de Software
+- Importancia de la testing en el desarrollo de software
+- Contexto del curso
+- Objetivos del reporte
+- Metodología usada para aprender
+- Breve descripción de lo que aprenderá el lector
+- Por qué es relevante en la industria actual
+
+**Cuestiones a abordar:**
+- ¿Cuál es el propósito de hacer pruebas de software?
+- ¿Por qué es crítico en el desarrollo?
+- Situación del mercado laboral para QA/Testers
+
+***
+
+### **4. CONTENIDO PRINCIPAL** (30-35 páginas)
+
+#### **Capítulo 1: Conceptos Fundamentales de Pruebas de Software** (4-5 páginas)
+
+Basado en **UNIDAD 1:**
+- **Definición de Pruebas de Software**
+  - Concepto formal
+  - Procesos involucrados
+  - Verificación vs. Validación
+  
+- **¿Qué es una Prueba de Software?**
+  - Son procesos donde se evalúa y verifica que un producto o programa de software cumpla con los requisitos especificados
+  - El software funciona como se espera
+  
+- **Importancia de las Pruebas**
+  - Identificar y corregir errores antes del lanzamiento
+  - Mejorar la calidad del producto
+  - Reducir costos de mantenimiento
+  - Aumentar la satisfacción del usuario
+  - Validar cumplimiento de requisitos
+
+***
+
+#### **Capítulo 2: Momentos de Ejecución de Pruebas** (3-4 páginas)
+
+- **Ciclo de Vida del Software**
+  - Se realizan en múltiples puntos del desarrollo
+  - No solo en una etapa específica
+  - Integración en cada fase: planificación, implementación, ejecución
+
+- **Fases donde se aplican pruebas**
+  - Planificación
+  - Análisis de requisitos
+  - Diseño
+  - Desarrollo
+  - Integración
+  - Implementación
+  - Post-lanzamiento
+
+- **Modelo de pruebas continuas**
+  - Ventajas
+  - Evolución del testing
+
+***
+
+#### **Capítulo 3: Tipos de Pruebas** (5-6 páginas)
+
+Basado en **UNIDAD 1 - Presentaciones de equipos:**
+
+Describe LOS 20 TIPOS DE PRUEBAS estudiados:
+
+**Ejemplos a incluir:**
+1. Pruebas Unitarias
+2. Pruebas de Integración
+3. Pruebas Funcionales
+4. Pruebas de Regresión
+5. Pruebas de Rendimiento
+6. Pruebas de Seguridad
+7. Pruebas de Usabilidad
+8. Pruebas de Compatibilidad
+9. Pruebas de Carga
+10. Pruebas de Estrés
+11. Pruebas de Confiabilidad
+12. Pruebas de Escalabilidad
+13. Pruebas de Recuperación
+14. Pruebas Exploratorias
+15. Pruebas de Aceptación
+16. Pruebas Smoke
+17. Pruebas Sanity
+18. Pruebas de Localización
+19. Pruebas Alpha/Beta
+20. Pruebas de Penetración
+
+**Para cada tipo incluir:**
+- Definición clara
+- Propósito
+- Cuándo se utiliza
+- Ventajas
+- Ejemplo práctico
+
+***
+
+#### **Capítulo 4: Casos de Prueba y Diseño** (4-5 páginas)
+
+Basado en **UNIDAD 2:**
+
+- **¿Qué es un Caso de Prueba?**
+  - Definición formal
+  - Importancia
+  
+- **Componentes de un Caso de Prueba**
+  - ID (identificador único)
+  - Descripción
+  - Precondiciones
+  - Pasos
+  - Datos de entrada
+  - Resultados esperados
+  - Resultados actuales
+  
+- **Diseño de Casos de Prueba**
+  - Técnicas de diseño
+  - Estrategias
+  
+- **Ejemplo Práctico Detallado**
+  - Caso de prueba para un formulario de registro
+  - Caso de prueba para una calculadora
+  - Caso de prueba para un login
+  
+- **Diferencia entre Diseñar y Ejecutar Pruebas**
+  - Fase de diseño
+  - Fase de ejecución
+  - Roles involucrados
+
+***
+
+#### **Capítulo 5: Ejecución de Pruebas Manuales** (3-4 páginas)
+
+Basado en **UNIDAD 2:**
+
+- **¿Cómo se Ejecutan Pruebas Manuales?**
+  - Seguir un guion paso a paso
+  - Documentación del proceso
+  
+- **Registro de Resultados**
+  - Estados: Pasó, Falló, Bloqueado, Incompleto
+  - Observaciones importantes
+  - Evidencia visual (capturas de pantalla)
+  
+- **Buenas Prácticas en Ejecución**
+  - Diferentes tipos de datos (válidos, inválidos, límites)
+  - Reproductibilidad
+  - Comunicación
+  
+- **Herramientas para Pruebas Manuales**
+  - Casos de prueba documentados
+  - Capturas de pantalla
+  - Videos
+  - Logs
+
+***
+
+#### **Capítulo 6: Reportes de Defectos de Software** (5-6 páginas)
+
+Basado en **UNIDAD 3:**
+
+- **¿Qué es un Reporte de Defectos?**
+  - Definición
+  - Importancia
+  - Impacto en el proyecto
+  
+- **Componentes de un Reporte de Defectos**
+  - ID del defecto
+  - Título/Resumen
+  - Descripción clara del problema
+  - Qué se esperaba vs. qué sucedió
+  - Pasos para reproducir
+  - Capturas de pantalla
+  - Entorno (navegador, SO, versión)
+  - Severidad
+  - Prioridad
+  - Reportado por
+  - Fecha
+  
+- **Cómo Describir un Error de Forma Clara**
+  - Lenguaje preciso
+  - Evitar ambigüedades
+  - Ser específico
+  - Incluir evidencia
+  
+- **Formatos Estándar**
+  - IEEE 829
+  - ISO/IEC/IEEE 29119
+  - Características de cada uno
+  
+- **Ciclo de Vida de un Defecto**
+  - Abierto
+  - En progreso
+  - Resuelto
+  - Cerrado
+  - Reabierto
+
+***
+
+#### **Capítulo 7: Buenas Prácticas en Testing** (4-5 páginas)
+
+Basado en **UNIDAD 2 y 3:**
+
+- **Datos de Prueba Diversificados**
+  - Datos válidos
+  - Datos inválidos
+  - Datos límite (boundary testing)
+  - Ejemplos prácticos
+  
+- **Reproductibilidad**
+  - Importancia
+  - Documentación clara
+  - Que cualquier persona pueda repetir la prueba
+  - Ventajas
+  
+- **Comunicación con el Equipo**
+  - Reporting efectivo
+  - Feedback claro
+  - Colaboración
+  
+- **Gestión de Pruebas**
+  - Planificación
+  - Ejecución
+  - Seguimiento
+  - Métricas
+  
+- **Eficiencia en Testing**
+  - Automatización vs. Manual
+  - Cuándo usar cada una
+  - Cobertura de pruebas
+
+***
+
+#### **Capítulo 8: Estándares y Formatos Certificados** (3-4 páginas)
+
+Basado en **UNIDAD 3:**
+
+- **Estándar IEEE 829**
+  - Historia
+  - Objetivos
+  - Componentes principales
+  - Estructura
+  
+- **Estándar ISO/IEC/IEEE 29119**
+  - Procesos
+  - Requerimientos
+  - Documentación
+  - Ventajas
+  
+- **Comparativa de Estándares**
+  - Similitudes
+  - Diferencias
+  - Cuándo usar cada uno
+  
+- **Material Multimedia en Formatos**
+  - Importancia de elementos visuales
+  - Videos de pruebas
+  - Diagramas
+  - Capturas de pantalla
+
+***
+
+#### **Capítulo 9: Experiencias Prácticas del Curso** (4-5 páginas)
+
+Basado en tus **experiencias reales:**
+
+- **Actividades Realizadas**
+  - Presentaciones de los 20 tipos de pruebas
+  - Diseño de casos de prueba
+  - Ejecución de pruebas en sistemas reales
+  - Elaboración de reportes de defectos
+  
+- **Proyectos del Curso**
+  - Primer avance (Propuesta del software)
+  - Segundo avance (Documentación con mejoras)
+  - Tercer avance (Documentación correcta + pruebas)
+  - Documento final (Proyecto completo)
+  
+- **Dinámicas por Equipos**
+  - Trabajo colaborativo
+  - Distribución de roles
+  - Desafíos encontrados
+  - Lecciones aprendidas
+  
+- **Aplicación de Estándares**
+  - Cómo aplicaste IEEE 829 o ISO/IEC/IEEE 29119
+  - Formatos utilizados
+  - Mejoras realizadas
+
+***
+
+### **5. CONCLUSIONES** (2-3 páginas)
+
+- **Resumen de Aprendizajes Clave**
+  - Temas más importantes
+  - Conceptos fundamentales
+  
+- **Impacto del Curso**
+  - Cómo cambió tu comprensión sobre testing
+  - Relevancia para tu carrera
+  
+- **Aplicación en la Industria**
+  - Demanda laboral de testers
+  - Habilidades requeridas
+  - Tendencias actuales
+  
+- **Reflexión Personal**
+  - Fortalezas adquiridas
+  - Áreas de mejora
+  - Próximos pasos
+  
+- **Recomendaciones Futuras**
+  - Para mejorar en testing
+  - Herramientas a aprender
+  - Especializaciones posibles
+
+***
+
+### **6. GLOSARIO TÉCNICO** (2-3 páginas)
+
+**Mínimo 40 palabras técnicas** (el profesor solicitó 10, pero incluir más):
+
+- **Caso de Prueba:** Conjunto de pasos diseñados para verificar una funcionalidad
+- **Defecto/Bug:** Diferencia entre comportamiento esperado y actual
+- **Cobertura de Pruebas:** Porcentaje de código ejecutado durante las pruebas
+- **Regression Testing:** Pruebas para verificar que cambios no rompieron funcionalidad existente
+- **Test Plan:** Documento que describe la estrategia de pruebas
+- **Validación:** Verificar que el producto cumple requisitos del usuario
+- **Verificación:** Verificar que el producto cumple especificaciones técnicas
+- **QA (Quality Assurance):** Aseguramiento de la calidad
+- **Black Box Testing:** Pruebas sin conocimiento del código interno
+- **White Box Testing:** Pruebas con conocimiento del código interno
+- **Smoke Testing:** Pruebas rápidas para verificar funcionalidad básica
+- **Stress Testing:** Pruebas bajo condiciones extremas
+- **Performance Testing:** Evaluación de rendimiento y velocidad
+- **Security Testing:** Pruebas de vulnerabilidades
+- **Usability Testing:** Evaluación de facilidad de uso
+- **Acceptance Testing:** Pruebas finales antes de lanzamiento
+- **Unit Testing:** Pruebas de componentes individuales
+- **Integration Testing:** Pruebas de integración entre componentes
+- **Boundary Testing:** Pruebas en límites de valores válidos
+- **End-to-End Testing:** Pruebas del flujo completo del sistema
+
+(Continúa con más términos)
+
+***
+
+### **7. REFERENCIAS** (1 página - Opcional)
+
+- Presentaciones del curso
+- Estándares IEEE 829 e ISO/IEC/IEEE 29119
+- Materiales de clase
+- Experiencias prácticas
+
+***
+
+## **DISTRIBUCIÓN DE PÁGINAS SUGERIDA**
+
+| Sección | Páginas |
+|---------|---------|
+| Portada | 1 |
+| Índice | 2 |
+| Introducción | 3 |
+| **CONTENIDO:** | |
+| Cap. 1: Conceptos Fundamentales | 5 |
+| Cap. 2: Momentos de Ejecución | 4

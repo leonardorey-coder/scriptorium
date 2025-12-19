@@ -1,0 +1,16 @@
+{
+  "titulo": "Uso práctico de JMenuBar, JMenu, JMenuItem y JToolBar con imágenes",
+  "tipo": "practica",
+  "materia": "programacion visual",
+  "presenta": "CRUZ FLORES JUAN LEONARDO",
+  "profesor": "CUEVAS HERNÁNDEZ ALDO ISMAEL",
+  "introduccion": "En esta práctica veremos la aplicación de crear una interfaz gráfica en Java utilizando los componentes JMenuBar, JMenu, JMenuItem y JToolBar. Implementaremos un menú de barra con submenús y elementos de menú, así como una barra de herramientas con botones que incluyen iconos.",
+  "desarrollo": "Como primer paso, se tiene que desarrollar la clase principal. Esta clase contendrá el método main que iniciará todos los procesos al iniciar con la ejecución del programa. Esta clase no hará más que instanciar el frame que contendrá los elementos posteriores, hacer uso de los métodos del frame para una muestra gráfica correcta de éste e instanciar dichos elementos en el frame. Posteriormente, se hace el desarrollo de la clase BarraMenu. Esta clase va a heredar de un JMenuBar para ser utilizado como uno. En su constructor, se hace el llamado a un método privado para la generación de los elementos que contendrá esta barra. En el desarrollo de dicho método, se empiezan a instanciar los JMenu que queremos que tenga nuestra barra y también se agregan a la barra. Se generan los JMenu haciendo uso de dos arreglos, uno que contendrá todos los JMenu y otro que contendrá sus nombres. Mediante la programación de un for es como se lleva a cavo el algoritmo. Una vez teniendo agregados los JMenu, se comienza la generación de otros métodos privados que tendrán como funcionalidad instanciar los demás elementos que contendrá cada JMenu ya instanciado y agregado. Se genera el método compCatalogos que instancia los elementos y los agrega el JMenu correspondiente, éste se pasa como parámetro. Se hace lo mismo con los demás JMenu. Por último, se crea la clase ToolBarMenuRapido, que hereda de JToolBar para poder ser utilizado de esa misma manera. Se le crea un método privado que será utilizado como generador de JButton para agregarles estilos personalizados e imágenes.Se crean 10 JButton para poder ser agregados en el JToolBar que tendrá como finalidad ser una barra de acceso rápido a las funciones de los JMenuItem en la barra vista previamente.",
+  "conclusion": "Se aprendió correctamente la implementación y el uso de estos elementos bastante útiles a la hora de desarrollar interfacez gráficas para el usuario. Generan atajos y accesos bastantes intuitivos a los usuarios, facilitándoles la productividad, eficiencia y eficacia de los trabajos y actividades. La programación de dichos elementos no es complicada ni laboriosa, ya que se hacen usos de métodos y clases que ya vienen implementadas.",
+  "referencias": ["Java Swing Documentation", "Programación Visual - Apuntes de clase"],
+  "palabras_clave": ["Java", "Swing", "JMenuBar", "JMenu", "JMenuItem", "JToolBar", "GUI"],
+  "fecha_creacion": "2025-11-15",
+  "formato": "tutorial",
+  "nivel_tecnico": "intermedio",
+  "enfoque": "practico"
+}

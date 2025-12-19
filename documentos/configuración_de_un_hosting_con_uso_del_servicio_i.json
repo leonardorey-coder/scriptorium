@@ -1,0 +1,10 @@
+{
+  "titulo": "Configuración de un hosting con uso del servicio IIS",
+  "tipo": "practica",
+  "materia": "programacion web",
+  "presenta": "CRUZ FLORES JUAN LEONARDO",
+  "profesor": "CUEVAS HERNÁNDEZ ALDO ISMAEL",
+  "introduccion": "En esta práctica se aprendió a configurar un hosting con uso del servicio IIS usando el sistema operativo de Windows Server 2019. Sus usos son indispensables en el desarrollo web y casi nunca se enseña cómo se instalan, configuran y usan desde cero. Cada elemento es escencial en la web, y no solo se usa el hosting, sino también el intérprete de algún lenguaje del lado del servidor y un gestor de base de datos.",
+  "desarrollo": "web y casi nunca se enseña cómo se instalan, configuran y usan desde cero. Cada elemento es escencial en la web, y no solo se usa el hosting, sino también el intérprete de algún lenguaje del lado del servidor y un gestor de base de datos.",
+  "conclusion": "La práctica detalló y enseñó perfectamente cómo integrar varios software para el desarrollo web, tomando incluso software actual y vigente en soporte, como el gestor de base de datos SQL Server."
+}
