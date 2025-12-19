@@ -113,8 +113,8 @@ Un sistema RAG que:
 | Sección | Funcionalidad |
 |---------|--------------|
 | **Documentos** | Gestión de documentos de ejemplo, visualización en lista y detalle |
-| **Generador** | Interfaz gráfica para generar documentos con controles visuales |
-| **Transformador** | Editor de texto para transformar documentos al estilo del usuario |
+| **Generador** | Interfaz gráfica para generar documentos con controles visuales<br>• Generación múltiple (2-5 versiones)<br>• Randomización de parámetros para diversidad<br>• Comparación lado a lado de resultados |
+| **Transformador** | Editor de texto para transformar documentos al estilo del usuario<br>• Transformación múltiple con variaciones<br>• Selección de mejor resultado<br>• Drag & drop de archivos |
 | **Configuración** | Gestión de API keys, endpoints y parámetros por defecto |
 
 ---
@@ -334,6 +334,62 @@ sequenceDiagram
 | Modelo | text-embedding-ada-002 (con fallback local) |
 | Caché | `embeddings_cache.pkl` |
 | Similitud | Coseno |
+
+---
+
+### 10.1 Generación y Transformación Múltiple
+
+Una característica clave de Scriptorium es la capacidad de generar múltiples versiones de un documento o transformación, permitiendo al usuario comparar y seleccionar la mejor opción.
+
+#### Funcionamiento
+
+```mermaid
+graph LR
+    A[Usuario solicita<br/>generación múltiple] --> B{Randomizar<br/>parámetros?}
+    B -->|Sí| C[Generar parámetros<br/>aleatorios]
+    B -->|No| D[Usar parámetros<br/>fijos]
+    C --> E[Generar versión 1]
+    D --> E
+    E --> F[Generar versión 2]
+    F --> G[Generar versión N]
+    G --> H[Mostrar resultados<br/>lado a lado]
+    H --> I[Usuario selecciona<br/>mejor versión]
+```
+
+#### Características
+
+| Aspecto | Detalle |
+|---------|---------|
+| **Cantidad** | 2-5 versiones por solicitud |
+| **Randomización** | Parámetros aleatorios para diversidad |
+| **Parámetros variados** | Temperatura, Top-P, Frequency Penalty, Presence Penalty |
+| **Interfaz** | Panel dividido con lista de resultados y vista previa |
+| **Selección** | Click para comparar, botones para copiar/guardar |
+
+#### Parámetros Randomizados
+
+Cuando la randomización está activa, los parámetros varían en los siguientes rangos:
+
+| Parámetro | Rango de Randomización | Propósito |
+|-----------|------------------------|-----------|
+| Temperatura | 0.3 - 1.0 | Varía creatividad vs precisión |
+| Top-P | 0.7 - 1.0 | Ajusta diversidad de tokens |
+| Frequency Penalty | -0.5 - 1.0 | Controla repeticiones |
+| Presence Penalty | -0.5 - 1.0 | Favorece temas nuevos |
+
+#### Casos de Uso
+
+1. **Exploración creativa**: Generar múltiples enfoques para el mismo tema
+2. **Optimización de calidad**: Comparar versiones y elegir la mejor redacción
+3. **Variedad de tono**: Obtener versiones más formales o creativas
+4. **Backup de opciones**: Tener alternativas si una versión no satisface
+
+#### Implementación (GUI)
+
+- **GeneratorView**: Implementa generación múltiple con progreso visual
+- **TransformerView**: Implementa transformación múltiple con comparación
+- **Interfaz dividida**: Lista de resultados + vista previa seleccionada
+- **Indicadores visuales**: Parámetros usados para cada versión
 
 ---
 

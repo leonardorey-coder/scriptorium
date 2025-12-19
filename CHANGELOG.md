@@ -42,7 +42,13 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 - Interfaz con NavigationSplitView de 3 columnas
 - Vista de Documentos con lista y detalle
 - Vista de Generador con controles visuales
+  - **Generación múltiple**: 2-5 versiones alternativas por solicitud
+  - **Randomización de parámetros**: Variación automática para diversidad
+  - Comparación lado a lado de resultados
 - Vista de Transformador con editor de texto
+  - **Transformación múltiple**: Múltiples variaciones del mismo texto
+  - Selección visual de mejor resultado
+  - Drag & drop de archivos
 - Configuración de API keys con KeychainService
 - PythonBridge para comunicación con backend RAG
 

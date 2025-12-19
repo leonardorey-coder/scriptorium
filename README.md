@@ -21,6 +21,8 @@ Scriptorium es una herramienta de IA que analiza tus documentos existentes para 
 
 ### 🎯 Generación Inteligente
 - Genera documentos nuevos desde un tema
+- **Generación múltiple**: Crea 2-5 versiones alternativas
+- **Randomización de parámetros**: Obtén resultados diversos
 - Mantiene tu estilo de escritura único
 - Soporta múltiples tipos de documentos
 - Control total sobre parámetros de IA
@@ -30,6 +32,8 @@ Scriptorium es una herramienta de IA que analiza tus documentos existentes para 
 
 ### 🔄 Transformación de Texto
 - Adapta cualquier texto a tu estilo
+- **Transformación múltiple**: Genera varias alternativas
+- **Comparación lado a lado**: Elige la mejor versión
 - Combina múltiples archivos
 - Preserva el contenido original
 - Reformatea estructura automáticamente
